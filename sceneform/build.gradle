@@ -36,6 +36,7 @@ android {
 dependencies {
     api project(":core")
     api project(":ux")
+    classpath 'com.android.tools.build:gradle:3.5.0'
 }
 
 //mavenPublish {
